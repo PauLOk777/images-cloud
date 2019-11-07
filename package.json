@@ -1,0 +1,37 @@
+{
+  "name": "images-cloud",
+  "version": "1.0.0",
+  "description": "Paul's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint .",
+    "dev": "nodemon",
+    "prettier": "prettier --config .prettierrc.json --write ./**/*.js",
+    "precommit": "npm run prettier && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauLOk777/images-cloud.git"
+  },
+  "keywords": [
+    "image",
+    "cloud",
+    "git",
+    "backend",
+    "nodeJS"
+  ],
+  "author": "PauLOk777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauLOk777/images-cloud/issues"
+  },
+  "homepage": "https://github.com/PauLOk777/images-cloud#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-esnext": "^4.0.0",
+    "husky": "^3.0.9",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2"
+  }
+}
