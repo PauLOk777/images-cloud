@@ -64,7 +64,7 @@ rules:
     - error
     - max: 7
   new-cap:
-    - error
+    - warn
     - newIsCap: true
       capIsNew: true
       properties: true
