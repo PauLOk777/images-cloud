@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Images cloud</title>
+	<title>Login</title>
 	<link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
 	<header>
-		<span class="title"><a href="">IMAGES CLOUD</a></span>
+		<span class="title"><a href="/">IMAGES CLOUD</a></span>
 		<div id="menu_block">
 			<ul id="menu">
 				<li><a href="/rules">Правила</a></li>
@@ -16,14 +16,15 @@
 			</ul>
 		</div>
 	</header>
-	<main>
-		<div id="content">
-			<span id="main_text">
-				On this website you can store your images 
-				and share them to your friends :)
-			</span>
+	<div id="login_form">
+		<div id="inner_login">
+			<form action="/login/submit" method="post">
+				<input name="login" type="text" placeholder="Input login"><br>
+				<input name="password" type="password" placeholder="Input password"><br>
+				<input type="submit">
+			</form>
 		</div>
-	</main>
+	</div>
 	<footer>
 		Copyright © 2019 Pavlo Trotsiuk.
 	</footer>
