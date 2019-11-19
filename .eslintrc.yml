@@ -57,7 +57,7 @@ rules:
         function:
           after: false
   max-len:
-    - error
+    - warn
     - code: 80
       ignoreUrls: true
   max-nested-callbacks:

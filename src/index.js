@@ -3,8 +3,11 @@ const hbs = require('hbs');
 const expressHbs = require('express-handlebars');
 const path = require('path');
 
-const middleware = require(path.join(__dirname, 'middlewares', 'middlewares.js'));
-const router = require(path.join(__dirname, 'routes', 'router.js'));
+const middleware = require(path.join(
+    __dirname,
+    'middlewares',
+    'middlewares.js'
+));
 
 const app = express();
 
